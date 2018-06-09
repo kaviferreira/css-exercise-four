@@ -3,45 +3,6 @@
   box-sizing: border-box;
 }
 
-body
-{
-  background-color:#dadada;
-  width:100%;
-  display:block;
-}
-.baku
-{
-  background-image: url(../images/baku.jpg);
-}
-.london
-{
-  background-image: url(../images/london.png);
-}
-.madrid
-{
-  background-image: url(../images/madrid.jpg);
-}
-.rome
-{
-  background-image: url(../images/rome.jpg);
-}
-.preview
-{
-height:300px;
-width:100%;
-background-size: cover;
-margin-bottom:5%;
-}
-h1{
-  padding:1em;
-  }
-  .main
-  {
-    text-align: center;
-    font-family: sans-serif;
-    color:grey;
-  }
-
 @media only screen
 and (min-device-width: 320px)
 
@@ -78,7 +39,7 @@ and (min-device-width: 320px)
   h1{
     padding:1em;
     }
-    .main
+.main
     {
       text-align: center;
       font-family: sans-serif;
@@ -91,29 +52,8 @@ and (min-device-width: 320px)
 and (min-device-width: 768px)
 
   {
-      body
-      {
-        background-color:#dadada;
-      }
       .container{
-        margin:5%;
-      }
-      .london
-      {
-        background-image: url(../images/london.png);
-      }
-      .baku
-      {
-        background-image: url(../images/baku.jpg);
-      }
-
-      .madrid
-      {
-        background-image: url(../images/madrid.jpg);
-      }
-      .rome
-      {
-        background-image: url(../images/rome.jpg);
+        margin:10%
       }
       .preview
       {
@@ -121,61 +61,18 @@ and (min-device-width: 768px)
       width:46.8%;
       background-size: cover;
       display:inline-block;
-      margin:10px;
+      margin:1%;
       }
-      h1{
-        padding:1em;
-        }
-        .main
-        {
-          text-align: center;
-          font-family: sans-serif;
-          color:grey;
-        }
-
     }
 
     @media only screen
     and (min-device-width: 1200px)
       {
-          body
-          {
-            background-color:#dadada;
-          }
-
-          .london
-          {
-            background-image: url(../images/london.png);
-          }
-          .baku
-          {
-            background-image: url(../images/baku.jpg);
-          }
-
-          .madrid
-          {
-            background-image: url(../images/madrid.jpg);
-          }
-          .rome
-          {
-            background-image: url(../images/rome.jpg);
-          }
           .preview
           {
           height:300px;
-          width:22.3%;
+          width:22.5%;
           background-size: cover;
           display:inline-block;
-          margin:10px;
           }
-          h1{
-            padding:1em;
-            }
-            .main
-            {
-              text-align: center;
-              font-family: sans-serif;
-              color:grey;
-            }
-
         }
